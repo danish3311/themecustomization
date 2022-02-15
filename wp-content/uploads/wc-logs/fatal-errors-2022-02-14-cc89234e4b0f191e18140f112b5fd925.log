@@ -1,0 +1,28 @@
+2022-02-14T08:30:50+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 13
+
+2022-02-14T10:59:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "slider" not found or invalid function name in C:\xampp\htdocs\ecom\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\ecom\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ecom\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\ecom\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecom\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecom\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-includes\class-wp-hook.php on line 307
+
+
+  thrown in C:\xampp\htdocs\ecom\wp-includes\class-wp-hook.php on line 307
+
+2022-02-14T10:59:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "slider" not found or invalid function name in C:\xampp\htdocs\ecom\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\ecom\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\ecom\wp-settings.php(587): do_action('init')
+#3 C:\xampp\htdocs\ecom\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecom\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecom\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecom\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-includes\class-wp-hook.php on line 307
+

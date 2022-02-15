@@ -1,0 +1,156 @@
+2022-02-15T05:05:12+00:00 CRITICAL Uncaught Error: Undefined constant "post_type" in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:12
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 12
+
+2022-02-15T05:49:38+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:17
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 17
+
+2022-02-15T07:10:36+00:00 CRITICAL syntax error, unexpected token ":", expecting ")" in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\functions.php on line 792
+
+2022-02-15T07:43:51+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:35
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 35
+
+2022-02-15T07:44:04+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:35
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 35
+
+2022-02-15T07:44:40+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:35
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 35
+
+2022-02-15T07:44:44+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:35
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 35
+
+2022-02-15T07:48:15+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:35
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 35
+
+2022-02-15T10:07:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 30
+
+2022-02-15T10:37:57+00:00 CRITICAL syntax error, unexpected identifier "get_footer" in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 46
+
+2022-02-15T10:39:55+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::the_title() in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:34
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 34
+
+2022-02-15T10:50:18+00:00 CRITICAL Uncaught Error: Undefined constant "road" in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:11
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 11
+
+2022-02-15T10:52:48+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: null + string in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:12
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 12
+
+2022-02-15T10:53:07+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: null + string in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:12
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 12
+
+2022-02-15T10:56:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\class-wp-theme-json-resolver.php on line 407
+
+ 178
+
+2022-02-15T10:56:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\kses.php on line 762
+
+th.php on line 2850
+
+ns.php on line 77
+
+10
+
+uler.php on line 305
+
+2022-02-15T10:56:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\pluggable-deprecated.php on line 18
+
+ctions.php on line 920
+
+2022-02-15T10:56:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\pluggable-deprecated.php on line 18
+
+2022-02-15T10:56:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\widgets\class-wp-widget-tag-cloud.php on line 221
+
+tures\ActivityPanels.php on line 69
+
+2022-02-15T10:56:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\functions.php on line 6707
+
+ne 18
+
+2022-02-15T10:56:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\class-wp-hook.php on line 307
+
+2022-02-15T10:56:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-content\plugins\woocommerce\includes\wc-page-functions.php on line 43
+
+2022-02-15T10:56:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\functions.php on line 4338
+
+2022-02-15T10:56:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Registry\Container.php on line 96
+
+2022-02-15T10:56:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecom\wp-includes\class-wp-object-cache.php on line 494
+
+2022-02-15T12:16:17+00:00 CRITICAL Uncaught Error: Undefined constant "imgsrc" in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 30
+
+2022-02-15T12:17:12+00:00 CRITICAL Uncaught Error: Undefined constant "imgsrc" in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php:29
+Stack trace:
+#0 C:\xampp\htdocs\ecom\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\ecom\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecom\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 29
+
+2022-02-15T12:20:18+00:00 CRITICAL syntax error, unexpected token ";" in C:\xampp\htdocs\ecom\wp-content\themes\twentytwenty\templates\my-custome-page.php on line 27
+

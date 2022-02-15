@@ -1,0 +1,18 @@
+
+.owl-carousel .item{
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: top;
+    color: white;
+}
+
+.owl-carousel .item h2,p{
+    color: white;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    text-align: center;
+}
