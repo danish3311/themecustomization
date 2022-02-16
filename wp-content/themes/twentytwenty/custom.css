@@ -16,3 +16,60 @@
     bottom: 50%;
     text-align: center;
 }
+
+/*  Services Section     */
+
+.services_container{
+    background-color: black;
+    width: 100%;
+
+}
+
+.serv_wrapper{
+    background-color: red;
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    position: relative;
+}
+
+
+.serv_card{
+    width: 33%;
+    background-color: black;
+display: inline-block;
+text-align: center
+;
+}
+
+.serv_card h5{
+    color: white;
+    margin: 0;
+    padding: 18px;
+    }
+
+.serv_card p{
+font-size: 15px;
+
+}
+
+.serv_card_img{
+  
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.serv_btn{
+
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.space{
+    padding: 5px;
+}

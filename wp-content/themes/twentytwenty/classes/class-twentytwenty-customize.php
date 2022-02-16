@@ -29,6 +29,7 @@ if ( ! class_exists( 'TwentyTwenty_Customize' ) ) {
 			 * */
 			$wp_customize->get_setting( 'blogname' )->transport        = 'postMessage';
 			$wp_customize->get_setting( 'blogdescription' )->transport = 'postMessage';
+			$wp_customize->get_setting( 'blogdescription' )->transport = 'postMessage';
 
 			$wp_customize->selective_refresh->add_partial(
 				'blogname',

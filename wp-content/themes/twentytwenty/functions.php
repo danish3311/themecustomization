@@ -805,7 +805,7 @@ function slider_init() {
         'hierarchical' => false,
         'rewrite' => array('slug' => 'slider'),
         'query_var' => true,
-        'menu_icon' => 'dashicons-randomize',
+        'menu_icon' => 'dashicons-slides',
         'supports' => array(
             'title',
             'editor',
@@ -819,3 +819,47 @@ function slider_init() {
 }
 
 
+//Custom Post Type for Services
+
+add_action( 'init', 'services_init' );
+
+function services_init() {
+	
+	$args = array(
+        'label' => "Services",
+        'public' => true,
+        'has_archive' => true,
+        'show_ui' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'rewrite' => array('slug' => 'services'),
+        'query_var' => true,
+        'menu_icon' => 'dashicons-admin-users',
+        'supports' => array(
+            'title',
+            'editor',
+            'custom-fields',
+            'thumbnail',
+            'page-attributes',
+			'excerpt'
+        )
+    );
+
+    register_post_type( 'services', $args );
+}
+
+//Adding Custom Field
+
+
+add_filter('admin_init', 'my_general_settings_register_fields');
+
+function my_general_settings_register_fields()
+{
+	register_setting('general', 'my_field', 'esc_attr');
+    add_settings_field('my_field', '<label for="my_field">'.__('Enter Tag Line' , 'my_field' ).'</label>' , 'my_general_settings_fields_html', 'general');
+}
+function my_general_settings_fields_html()
+{
+$value = get_option( 'my_field', '' );
+echo '<input type="text" id="my_field" name="my_field" value="' . $value . '" />';
+}
